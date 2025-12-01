@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>AUTH_BASE_URL</key>
+	<string>$(AUTH_BASE_URL)</string>
+	<key>BOOKING_BASE_URL</key>
+	<string>$(BOOKING_BASE_URL)</string>
+	<key>STUB_DELAY_SECONDS</key>
+	<string>$(STUB_DELAY_SECONDS)</string>
+	<key>STUB_LOGIN_STATUS</key>
+	<string>$(STUB_LOGIN_STATUS)</string>
+	<key>STUB_REGISTER_STATUS</key>
+	<string>$(STUB_REGISTER_STATUS)</string>
+	<key>STUB_APARTMENTS_STATUS</key>
+	<string>$(STUB_APARTMENTS_STATUS)</string>
+	<key>STUB_APARTMENT_STATUS</key>
+	<string>$(STUB_APARTMENT_STATUS)</string>
+	<key>STUB_OWNER_APTS_STATUS</key>
+	<string>$(STUB_OWNER_APTS_STATUS)</string>
+	<key>STUB_USER_BOOKS_STATUS</key>
+	<string>$(STUB_USER_BOOKS_STATUS)</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
