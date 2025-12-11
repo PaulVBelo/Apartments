@@ -12,7 +12,6 @@ final class StubAPIClient: APIClient {
 
     // MARK: - In-memory storage
 
-    /// Зарегистрированные пользователи в рамках жизни StubAPIClient.
     private var accountsByEmail: [String: StubUser] = [:]
 
     private var apartments: [StubApartment]
@@ -133,7 +132,6 @@ final class StubAPIClient: APIClient {
             password: password
         )
         accountsByEmail[normalizedEmail] = newUser
-        // register возвращает Void – этого достаточно, дальше UI может вызвать login
     }
 
     // MARK: - GET /apartments?city=&rooms=&beds=
