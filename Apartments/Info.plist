@@ -4,6 +4,8 @@
 <dict>
 	<key>NSAppTransportSecurity</key>
 	<dict>
+		<key>CACHE_TTL_SECONDS</key>
+		<string>$(CACHE_TTL_SECONDS)</string>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
