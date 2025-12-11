@@ -3,5 +3,3 @@ AUTH_BASE_URL = localhost:8080
 BOOKING_BASE_URL = localhost:8081
 
 STUB_DELAY_SECONDS = 1
-STUB_LOGIN_STATUS = 200     // login
-STUB_REGISTER_STATUS = 201  // register

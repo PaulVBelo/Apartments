@@ -2,15 +2,7 @@
 AUTH_BASE_URL = localhost:8080
 BOOKING_BASE_URL = localhost:8081
 
-// Other useful vars
 CACHE_TTL_SECONDS = 180.0
-
 
 // Тестовые аргументы для заглушки
 STUB_DELAY_SECONDS = 1
-STUB_LOGIN_STATUS = 200     // login
-STUB_REGISTER_STATUS = 201  // register
-STUB_APARTMENTS_STATUS = 200        // searchApartments
-STUB_APARTMENT_STATUS  = 200       // apartmentDetails
-STUB_OWNER_APTS_STATUS = 200        // apartmentsByOwner
-STUB_USER_BOOKS_STATUS = 200       // bookingsByUser

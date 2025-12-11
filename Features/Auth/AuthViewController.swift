@@ -62,6 +62,8 @@ final class AuthViewController: UIViewController {
                 do {
                     let dto = try await api.login(email: email, password: pass)
                     AppState.shared.userId = dto.user_id
+                    // Save email (account display for quiting feature)
+                    AppState.shared.userEmail = email
                     setLoading(false)
                     
                     RootSwitcher.toMain()

@@ -12,8 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("AUTH_BASE_URL:", AppConfig.authBaseURL)
         print("BOOKING_BASE_URL:", AppConfig.bookingBaseURL)
         print("Delay:", AppConfig.stubDelaySeconds)
-        print("Login status:", AppConfig.stubLoginStatus)
-        print("Register status:", AppConfig.stubRegisterStatus)
+        print("Cache TTL:", AppConfig.cacheTTLSeconds)
         print("--------------------------")
 
         return true

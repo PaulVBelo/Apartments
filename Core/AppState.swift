@@ -20,7 +20,7 @@ struct SearchSession: Codable, Equatable {
 final class AppState: ObservableObject {
     static let shared = AppState()
     private init() {
-        let baseClient: APIClient = RealAPIClient()
+        let baseClient: APIClient = StubAPIClient()
 
         if let container = try? ModelContainer(for: APICacheEntry.self) {
             self.cacheContainer = container
@@ -33,6 +33,7 @@ final class AppState: ObservableObject {
 
     // GLOBALS
     @Published var userId: String = ""
+    @Published var userEmail: String = ""
     @Published var search = SearchSession()
 
     // API

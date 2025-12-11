@@ -6,6 +6,7 @@ enum RootSwitcher {
         guard let window = keyWindow() else { return }
         let root = UIHostingController(rootView: MainContainerView())
         let nav = UINavigationController(rootViewController: root)
+        nav.setNavigationBarHidden(true, animated: false)
         setRoot(nav, for: window)
     }
 
@@ -13,6 +14,7 @@ enum RootSwitcher {
         guard let window = keyWindow() else { return }
         let auth = AuthViewController(api: api)
         let nav = UINavigationController(rootViewController: auth)
+        nav.setNavigationBarHidden(true, animated: false)
         setRoot(nav, for: window)
     }
     

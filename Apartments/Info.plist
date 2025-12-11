@@ -13,18 +13,6 @@
 	<string>$(BOOKING_BASE_URL)</string>
 	<key>STUB_DELAY_SECONDS</key>
 	<string>$(STUB_DELAY_SECONDS)</string>
-	<key>STUB_LOGIN_STATUS</key>
-	<string>$(STUB_LOGIN_STATUS)</string>
-	<key>STUB_REGISTER_STATUS</key>
-	<string>$(STUB_REGISTER_STATUS)</string>
-	<key>STUB_APARTMENTS_STATUS</key>
-	<string>$(STUB_APARTMENTS_STATUS)</string>
-	<key>STUB_APARTMENT_STATUS</key>
-	<string>$(STUB_APARTMENT_STATUS)</string>
-	<key>STUB_OWNER_APTS_STATUS</key>
-	<string>$(STUB_OWNER_APTS_STATUS)</string>
-	<key>STUB_USER_BOOKS_STATUS</key>
-	<string>$(STUB_USER_BOOKS_STATUS)</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
